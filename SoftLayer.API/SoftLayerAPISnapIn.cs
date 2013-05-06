@@ -12,12 +12,12 @@ namespace SoftLayer.API.PowerShell
     {
         public override string Name
         {
-            get { return "SoftLayerAPIPSSnapIn"; }
+            get { return "SoftLayerAPISnapIn"; }
         }
 
         public override string Description
         {
-            get { return "This is a PS snap-in that provides access to the SoftLayer"; }
+            get { return "This is a PowerShell snap-in that provides access to the SoftLayer services through their API"; }
         }
 
         public override string Vendor
