@@ -39,6 +39,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Client.cs" />
+    <Compile Include="GetClientCommand.cs" />
     <Compile Include="Serialization\JsonSerializer.cs" />
     <Compile Include="Services\Domain\AddResourceRecordCommand.cs" />
     <Compile Include="Services\ServiceCommand.cs" />
