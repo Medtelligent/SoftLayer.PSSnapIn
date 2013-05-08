@@ -19,7 +19,7 @@ namespace SoftLayer.API.PowerShell.Commands.Services.Domain
         public int DomainId { get; set; }
 
         [Parameter(Position = 1, Mandatory = true, ParameterSetName = "ResourceRecordDataParameterSet")]
-        public int ResourceRecordId { get; set; }
+        public int Id { get; set; }
 
         [Parameter(Position = 2, ParameterSetName = "ResourceRecordDataParameterSet")]
         public string Type { get; set; }
@@ -61,7 +61,7 @@ namespace SoftLayer.API.PowerShell.Commands.Services.Domain
             {
                 resourceRecord = new DnsResourceRecord
                 {
-                    Id = ResourceRecordId,
+                    Id = Id,
                     DomainId = DomainId,
                     Type = Type,
                     Host = Host,
